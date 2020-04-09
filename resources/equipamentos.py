@@ -1,6 +1,9 @@
-from flask_restful import Resource, reqparse
-from models.equipamento import EquipamentoModel
 import json
+
+import pandas as pd
+from flask_restful import Resource, reqparse
+
+from models.equipamento import EquipamentoModel
 
 equipamentos = []
 
@@ -17,6 +20,12 @@ class Equipamento(Resource):
     argumentos.add_argument('serial')
 
     @staticmethod
+    def retorna_base():
+        planilha = pd.ExcelFile('base.xlsx')
+        base_asset = planilha.parse('base')
+        return base_asset
+
+    @staticmethod
     def find_equipamento(eid):
         for equi in equipamentos:
             if equi['eid'] == eid:
@@ -31,10 +40,13 @@ class Equipamento(Resource):
         Equipamento.find_equipamento(dados[eid])
 
     def post(self, eid):
+        df = self.retorna_base()
         dados = self.argumentos.parse_args()
         equi_objeto = EquipamentoModel(eid, **dados)
         equi_novo = equi_objeto.json()
         equipamentos.append(equi_novo)
+        equi_encontrado = [i for i in df['Service tag (Asset)'] if i == equi_novo['ativo']]
+        print(equi_encontrado)
         try:
             from csv import writer
             with open('computadores.csv', 'a', encoding='UTF-8') as arquivo:

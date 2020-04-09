@@ -12,3 +12,4 @@ class EquipamentoModel:
             "serial": self.serial,
             "tipo_equipamento": self.tipo_equipamentos
         }
+
