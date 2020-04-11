@@ -6,15 +6,26 @@ from models.equipamento import EquipamentoModel
 
 equipamentos = []
 
-class Equipamentos(Resource):
 
+class Equipamentos(Resource):
+    """
+     Classe criada para a declaração de Resource da Aplicação FLASK, ROTA : (/equipamentos)
+     Métodas crud: get
+     """
     @staticmethod
     def get():
+        """
+        Retorna o dicionário equipamentos com todos os equipamentos cadastrados.
+        :return: equipamentos [Dicionário]
+        """
         return equipamentos
 
 
-
 class Equipamento(Resource):
+    """
+    Classe criada para a declaração de Resource da Aplicação FLASK, ROTA : (/equipamento/id)
+    Métodas crud: get, post, put and Del
+    """
     argumentos = reqparse.RequestParser()
     argumentos.add_argument('ativo')
     argumentos.add_argument('modelo')
@@ -25,7 +36,6 @@ class Equipamento(Resource):
         planilha = pd.ExcelFile('C:\\Users\\andre\\PycharmProjects\\apiteste\\base_limpa.xlsx')
         base_asset = planilha.parse('base')
         return base_asset
-
 
     @staticmethod
     def find_equipamento(eid):
@@ -48,19 +58,14 @@ class Equipamento(Resource):
         equi_novo = equi_objeto.json()
         equipamentos.append(equi_novo)
         row = df[df['Service tag (Asset)'] == dados['ativo']]
-        if not row.empty:
-            print(row)
-            print(row.iloc[0, 0])
+        if row.empty:
+            return {"message": "Não foi encontrado esse equipamento na base de dados"}
         try:
             from csv import writer
-            with open('computadores.csv', 'a', encoding='UTF-8') as arquivo:
+            with open('computadores.csv', 'a', encoding='UTF-8', newline=' ') as arquivo:
                 escritor_csv = writer(arquivo)
-                escritor_csv.writerow([
-                row.iloc[0,0], 
-                row.iloc[0,1],
-                row.iloc[0,2], 
-                row.iloc[0,3],
-                row.iloc[0, 4]])
+                escritor_csv.writerow([row.iloc[0, 0], row.iloc[0, 1], row.iloc[0, 2], row.iloc[0, 3],
+                                       row.iloc[0, 4]])
 
         except FileExistsError:
             print('Error')
