@@ -1,15 +1,15 @@
 class EquipamentoModel:
-    def __init__(self, eid, ativo, serial, tipo_equipamento):
+    def __init__(self, eid, ativo, serial, modelo):
         self.eid = eid
         self.ativo = ativo
         self.serial = serial
-        self.tipo_equipamentos = tipo_equipamento
+        self.modelo = modelo
 
     def json(self):
         return {
             "eid": self.eid,
             "ativo": self.ativo,
             "serial": self.serial,
-            "tipo_equipamento": self.tipo_equipamentos
+            "modelo": self.modelo
         }
 

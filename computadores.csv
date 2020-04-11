@@ -1,3 +1,2 @@
-eid,ativo,serial,tipo_equipamento3
-10,60004483,Br23054684kjk,Notepad
-10,600003027,Br23054684kjk,Notepad
+service_tag,fixed_asset,model,serial,status
+
