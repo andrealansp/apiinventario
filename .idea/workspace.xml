@@ -2,57 +2,102 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="674dcb31-f50a-4b21-a7cf-7dd5d3740147" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/elements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/generic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/css/fontawesome-all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/css/images/arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/css/images/bars.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/css/images/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/css/noscript.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/js/breakpoints.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/js/browser.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/js/jquery.scrollex.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/js/jquery.scrolly.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/js/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/sass/libs/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/sass/libs/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/sass/libs/_html-grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/sass/libs/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/sass/libs/_vars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/sass/libs/_vendor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/sass/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/sass/noscript.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/assets/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/images/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/images/pic01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/images/pic02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/images/pic03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/images/pic04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/static/images/pic05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/images/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/images/bars.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/images/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/noscript.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/breakpoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/browser.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery.scrollex.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery.scrolly.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/libs/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/libs/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/libs/_html-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/libs/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/libs/_vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/libs/_vendor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/sass/noscript.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pic05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/generic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/computadores.csv" beforeDir="false" afterPath="$PROJECT_DIR$/computadores.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/equipamentos.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/equipamentos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/generic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/css/fontawesome-all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/css/images/arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/css/images/bars.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/css/images/close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/css/noscript.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/js/breakpoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/js/browser.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/js/jquery.scrollex.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/js/jquery.scrolly.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/js/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/sass/libs/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/sass/libs/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/sass/libs/_html-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/sass/libs/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/sass/libs/_vars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/sass/libs/_vendor.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/sass/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/sass/noscript.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/assets/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/images/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/images/pic01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/images/pic02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/images/pic03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/images/pic04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/static/images/pic05.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,8 +226,8 @@
     <list>
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.app" />
-      <item itemvalue="Python.teste" />
       <item itemvalue="Python.equipamentos" />
+      <item itemvalue="Python.teste" />
     </list>
     <recent_temporary>
       <list>
@@ -262,31 +307,31 @@
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state x="468" y="293" key="Github.CreateGistDialog/0.0.1304.768/3286.0.1024.768/1366.0.1920.1080@0.0.1304.768" timestamp="1585876140607" />
-    <state width="1261" height="351" key="GridCell.Tab.0.bottom" timestamp="1586617138276">
+    <state width="1261" height="351" key="GridCell.Tab.0.bottom" timestamp="1586659665663">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="351" key="GridCell.Tab.0.bottom/0.0.1304.768/1366.0.1920.1080@0.0.1304.768" timestamp="1586617138276" />
+    <state width="1261" height="351" key="GridCell.Tab.0.bottom/0.0.1304.768/1366.0.1920.1080@0.0.1304.768" timestamp="1586659665663" />
     <state width="1261" height="222" key="GridCell.Tab.0.bottom/0.0.1304.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1586398962154" />
     <state width="1261" height="176" key="GridCell.Tab.0.bottom/0.0.1304.768/3286.0.1024.768/1366.0.1920.1080@0.0.1304.768" timestamp="1586054982780" />
     <state width="1261" height="176" key="GridCell.Tab.0.bottom/0.0.1304.768@0.0.1304.768" timestamp="1586200517651" />
-    <state width="1261" height="351" key="GridCell.Tab.0.center" timestamp="1586617138276">
+    <state width="1261" height="351" key="GridCell.Tab.0.center" timestamp="1586659665661">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="351" key="GridCell.Tab.0.center/0.0.1304.768/1366.0.1920.1080@0.0.1304.768" timestamp="1586617138276" />
+    <state width="1261" height="351" key="GridCell.Tab.0.center/0.0.1304.768/1366.0.1920.1080@0.0.1304.768" timestamp="1586659665661" />
     <state width="1261" height="222" key="GridCell.Tab.0.center/0.0.1304.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1586398962154" />
     <state width="1261" height="176" key="GridCell.Tab.0.center/0.0.1304.768/3286.0.1024.768/1366.0.1920.1080@0.0.1304.768" timestamp="1586054982779" />
     <state width="1261" height="176" key="GridCell.Tab.0.center/0.0.1304.768@0.0.1304.768" timestamp="1586200517651" />
-    <state width="1261" height="351" key="GridCell.Tab.0.left" timestamp="1586617138276">
+    <state width="1261" height="351" key="GridCell.Tab.0.left" timestamp="1586659665661">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="351" key="GridCell.Tab.0.left/0.0.1304.768/1366.0.1920.1080@0.0.1304.768" timestamp="1586617138276" />
+    <state width="1261" height="351" key="GridCell.Tab.0.left/0.0.1304.768/1366.0.1920.1080@0.0.1304.768" timestamp="1586659665661" />
     <state width="1261" height="222" key="GridCell.Tab.0.left/0.0.1304.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1586398962154" />
     <state width="1261" height="176" key="GridCell.Tab.0.left/0.0.1304.768/3286.0.1024.768/1366.0.1920.1080@0.0.1304.768" timestamp="1586054982778" />
     <state width="1261" height="176" key="GridCell.Tab.0.left/0.0.1304.768@0.0.1304.768" timestamp="1586200517651" />
-    <state width="1261" height="351" key="GridCell.Tab.0.right" timestamp="1586617138276">
+    <state width="1261" height="351" key="GridCell.Tab.0.right" timestamp="1586659665662">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="351" key="GridCell.Tab.0.right/0.0.1304.768/1366.0.1920.1080@0.0.1304.768" timestamp="1586617138276" />
+    <state width="1261" height="351" key="GridCell.Tab.0.right/0.0.1304.768/1366.0.1920.1080@0.0.1304.768" timestamp="1586659665662" />
     <state width="1261" height="222" key="GridCell.Tab.0.right/0.0.1304.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1586398962154" />
     <state width="1261" height="176" key="GridCell.Tab.0.right/0.0.1304.768/3286.0.1024.768/1366.0.1920.1080@0.0.1304.768" timestamp="1586054982779" />
     <state width="1261" height="176" key="GridCell.Tab.0.right/0.0.1304.768@0.0.1304.768" timestamp="1586200517651" />
@@ -318,12 +363,12 @@
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state x="244" y="117" key="Vcs.Push.Dialog.v2/0.0.1304.768/1366.0.1920.1080@0.0.1304.768" timestamp="1586399281336" />
-    <state x="328" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1586573250115">
+    <state x="328" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1586703537297">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state x="328" y="208" key="com.intellij.ide.util.TipDialog/0.0.1304.768/1366.0.1024.768@0.0.1304.768" timestamp="1585871180958" />
     <state x="328" y="208" key="com.intellij.ide.util.TipDialog/0.0.1304.768/1366.0.1920.1080/3286.0.1024.768@0.0.1304.768" timestamp="1586107904435" />
-    <state x="328" y="208" key="com.intellij.ide.util.TipDialog/0.0.1304.768/1366.0.1920.1080@0.0.1304.768" timestamp="1586573250115" />
+    <state x="328" y="208" key="com.intellij.ide.util.TipDialog/0.0.1304.768/1366.0.1920.1080@0.0.1304.768" timestamp="1586703537297" />
     <state x="328" y="208" key="com.intellij.ide.util.TipDialog/0.0.1304.768/3286.0.1024.768/1366.0.1920.1080@0.0.1304.768" timestamp="1586222350525" />
     <state x="328" y="208" key="com.intellij.ide.util.TipDialog/0.0.1304.768@0.0.1304.768" timestamp="1586193456368" />
     <state x="459" y="296" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586399101109">

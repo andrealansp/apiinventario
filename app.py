@@ -2,7 +2,7 @@ from flask import Flask, render_template
 from flask_restful import Api
 from resources.equipamentos import Equipamentos, Equipamento, Consultas
 
-app = Flask(__name__, template_folder="C:\\Users\\andre\\PycharmProjects\\apiteste\\views")
+app = Flask(__name__)
 api = Api(app)
 
 
